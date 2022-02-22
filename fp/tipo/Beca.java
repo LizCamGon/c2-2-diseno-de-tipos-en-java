@@ -10,7 +10,7 @@ public class Beca implements Comparable<Beca> {
 	public Integer duracion;
 	private TipoBeca tipo;
 	
-	public Beca (Stirng codigo, LocalDate fechaComienzo, Double cuantia, TipoBeca tipo) {
+	public Beca (String codigo, LocalDate fechaComienzo, Double cuantia, TipoBeca tipo) {
 		if (duration<1) {
 			throw new IllegalArgumentException("La duracion debe ser mayor que cero");
 		}
